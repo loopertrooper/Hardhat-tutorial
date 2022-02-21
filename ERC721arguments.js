@@ -1,1 +1,1 @@
-module.exports = ["My Solidity Token", "MST"];
+module.exports = ["My Solidity NFT", "MSN"];

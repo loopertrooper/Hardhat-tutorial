@@ -6,7 +6,7 @@ async function main() {
   console.log("Account balance: ", balance.toString());
 
   const Token = await ethers.getContractFactory("Token");
-  const token = await Token.deploy("My Solidity Token", "MST");
+  const token = await Token.deploy("My Solidity NFT", "MSN");
   console.log("Token address: ", token.address);
 }
 main()
